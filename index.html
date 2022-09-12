@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Netflix</title>
+
+    <!--Nosso script do fontawesome para icones-->
+    <script src="https://kit.fontawesome.com/b99672f1dd.js" crossorigin="anonymous"></script>
+   
+    <!--Nosso arquivo de estilo-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+ 
+  <body>
+  
+  <header>
+      
+   <div class="center">
+
+    <div class="header-left">
+
+      <!--Imagem da logo netflix-->
+      <a href="#"><img src="img/logo_netflix.png"></a>
+
+      <!--Aqui e o menu desktop-->
+      <div class="menu-header">
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Seríes</a></li>
+          <li><a href="#">Filmes</a></li>
+          <li><a href="#">Bombando</a></li>
+          <li><a href="#">Minha Lista</a></li>
+        </ul>
+      </div><!--menu-header-->
+
+      <div class="mobile-menu">
+
+        <span>Navegar <i class="fas fa-caret-down"></i></span>
+
+        <!--Aqui o menu mobile-->
+        <ul>
+          <i class="fas fa-caret-up"></i> 
+          <li><a style="color: white;" href="#">Início</a></li>
+          <li><a href="#">Seríes</a></li>
+          <li><a href="#">Filmes</a></li>
+          <li><a href="#">Bombando</a></li>
+          <li><a href="#">Minha Lista</a></li>
+        </ul>
+      </div><!--mobile-menu-->
+
+    </div><!--header-left-->
+
+    <!--Aqui são nossos icones de pesquisa e notificações-->
+    <div class="header-right">
+
+     <div class="search">
+      <i class="fas fa-search"></i>
+     </div><!--search-->
+
+      <div class="notifications">
+        
+        <div class="circle-notifications">
+          <span>7</span>
+        </div><!--circle-notifications-->
+        <i class="fas fa-bell"></i>
+      
+      </div><!--notifications--> 
+    
+      <!--Essa e a perte de usuários-->
+      <div class="users">
+        
+       <div class="user1">
+       
+        <!--Nessa primeira classe use está a imagem que fica aparecendo-->
+        <div class="use">
+          <img src="img/user-1.png"><i class="fas fa-caret-down"></i>
+        </div><!--use-->
+       
+       </div> 
+
+        <div class="align">
+        
+          <!--No use dentro da classe align estão as que vão aparece quando passar
+          o mouse em cima da imagem de usuário, alterem as imagens e nomes como achar melhor
+          -->
+        <div class="use">
+          <img src="img/user-3.jpg">
+          <a href="#"><p>João</p></a>
+        </div><!--use-->
+     
+        <div class="use">
+          <img src="img/user-4.png">
+          <a href="#"><p>Maria</p></a>
+        </div><!--use-->
+
+        <div class="use">
+          <img src="img/user-2.png">
+          <a href="#"><p>Marcos</p></a>
+        </div><!--use-->
+
+        <div class="use">
+          <img src="img/user-5.png">
+          <a href="#"><p>Taís</p></a>
+        </div><!--use-->
+
+        <!--Aqui fica as opções-->
+        <a href="#"><p>Gerenciar Perfis</p></a>
+
+        <div class="conta">
+          <a href="#"><p>Conta</p></a>
+          <a href="#"><p>Centro de ajuda</p></a>
+          <a href="#"><p>Sair da Netflix</p></a>
+        </div>
+
+      </div>
+
+      </div>
+
+    </div><!--header-right-->
+
+    <div class="clear"></div>
+   </div><!--center-->
+
+  </header>
+
+  <section class="destaque">
+
+    <!--Nessa classe destaque fica o video que esta aparecendo-->
+    <video autoplay loop id="video-destaque">
+    
+      <!--Se você apaga temporariamente vai aparece essa imagem com a capa da serie-->
+    <source src="img/alice-top.mp4">
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="texto-destaque">
+      
+      <!--Aqui fica o titulo e a descricão da serie-->
+      <img src="img/text.png">
+      <h3>Assista a primeira temporada completa agora!</h3>
+      <p>Um gamer e dois amigos são <br>transportados para uma versão paralela de Tóquio,<br> 
+        onde precisam participar de diversos<br> jogos mortais caso queiram sobreviver.
+      </p>
+      <br>
+
+      <div class="old-16">
+        <img src="img/old16.png"> <!--Essa e a imagem de relevância da serie-->
+      </div>
+
+      <!--Esses são os botões de assistir e mais informações-->
+      <a href="#" class="top"><i class="fas fa-play"></i>  Assistir</a>
+      <a href="#"><i class="fas fa-info-circle"></i>  Mais informações</a>
+
+      <div class="clear"></div>
+    </div><!--texto-destaque-->
+
+  </section><!--destaque-->
+
+  <section class="vitrine">
+    
+    <h2>Séries de ação</h2>
+
+    <div class="vitrine-flex">
+    
+      <div class="vitrine-single-banner">
+        <!--Nesse style background-image fica a imagem da serie que você quer que apareça-->
+				<div class="vitrine-wraper" style="background-image: url('img/arrow.jpg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/The_Flash.jpg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/Grey2.jpg');"></div>
+			</div>
+		 
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/round-6.jpeg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/arrow.jpg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/The_Flash.jpg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/Grey2.jpg');"></div>
+			</div>
+		 
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/round-6.jpeg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/The_Flash.jpg');"></div>
+			</div>
+
+    </div><!--vitrine-flex-->
+
+    <h2>Continuar assistindo</h2>
+
+    <div class="vitrine-flex">
+     
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/arrow.jpg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/The_Flash.jpg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/Grey2.jpg');"></div>
+			</div>
+		 
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/round-6.jpeg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/arrow.jpg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/The_Flash.jpg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/Grey2.jpg');"></div>
+			</div>
+		 
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/round-6.jpeg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/The_Flash.jpg');"></div>
+			</div>
+
+    </div><!--vitrine-flex-->
+
+    <h2>Em alta</h2>
+
+    <div class="vitrine-flex">
+     
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/arrow.jpg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/The_Flash.jpg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/Grey2.jpg');"></div>
+			</div>
+		 
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/round-6.jpeg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/arrow.jpg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/The_Flash.jpg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/Grey2.jpg');"></div>
+			</div>
+		 
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/round-6.jpeg');"></div>
+			</div>
+			
+      <div class="vitrine-single-banner">
+				<div class="vitrine-wraper" style="background-image: url('img/The_Flash.jpg');"></div>
+			</div>
+
+    </div><!--vitrine-flex-->
+  
+  </section><!--vitrine-->
+  
+  <!--Para ver os scripts vá na pasta js/functions.js-->
+
+  <script src="js/jquery.js"></script><!--Link do script do jquery-->
+  <script src="js/functions.js"></script>
+  <script src="js/slick.min.js"></script><!--Plugin do javascript para slider-->
+
+  </body>
+
+ </html>
